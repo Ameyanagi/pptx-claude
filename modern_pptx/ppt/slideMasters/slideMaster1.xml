@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sldMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:bg>
+      <p:bgPr>
+        <a:gradFill rotWithShape="1">
+          <a:gsLst>
+            <a:gs pos="0"><a:srgbClr val="0D1B2A"/></a:gs>
+            <a:gs pos="50000"><a:srgbClr val="1B263B"/></a:gs>
+            <a:gs pos="100000"><a:srgbClr val="0D1B2A"/></a:gs>
+          </a:gsLst>
+          <a:lin ang="5400000" scaled="0"/>
+        </a:gradFill>
+        <a:effectLst/>
+      </p:bgPr>
+    </p:bg>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Decorative top-right circle -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="10" name="Decoration Circle 1"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="10500000" y="-500000"/>
+            <a:ext cx="2500000" cy="2500000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:gradFill rotWithShape="1">
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"><a:alpha val="30000"/></a:srgbClr></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="7B2CBF"><a:alpha val="10000"/></a:srgbClr></a:gs>
+            </a:gsLst>
+            <a:lin ang="2700000" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p><a:endParaRPr/></a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Decorative bottom-left circle -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="11" name="Decoration Circle 2"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="-800000" y="5000000"/>
+            <a:ext cx="3000000" cy="3000000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:gradFill rotWithShape="1">
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="7B2CBF"><a:alpha val="25000"/></a:srgbClr></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="E63946"><a:alpha val="5000"/></a:srgbClr></a:gs>
+            </a:gsLst>
+            <a:lin ang="2700000" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p><a:endParaRPr/></a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Accent line at bottom -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="12" name="Accent Line"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="6750000"/>
+            <a:ext cx="12192000" cy="108000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill rotWithShape="1">
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="50000"><a:srgbClr val="7B2CBF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="E63946"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p><a:endParaRPr/></a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMap bg1="dk1" tx1="lt1" bg2="dk2" tx2="lt2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>
+  <p:sldLayoutIdLst>
+    <p:sldLayoutId id="2147483649" r:id="rId1"/>
+    <p:sldLayoutId id="2147483650" r:id="rId2"/>
+    <p:sldLayoutId id="2147483651" r:id="rId3"/>
+  </p:sldLayoutIdLst>
+</p:sldMaster>

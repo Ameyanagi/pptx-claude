@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Decorative floating shapes -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="20" name="Float Shape 1"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm rot="2700000">
+            <a:off x="1000000" y="1500000"/>
+            <a:ext cx="400000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln w="19050">
+            <a:solidFill><a:srgbClr val="00D4FF"><a:alpha val="60000"/></a:srgbClr></a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="21" name="Float Shape 2"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="10500000" y="4500000"/>
+            <a:ext cx="300000" cy="300000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="7B2CBF"><a:alpha val="40000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="22" name="Float Shape 3"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm rot="900000">
+            <a:off x="11000000" y="1200000"/>
+            <a:ext cx="250000" cy="250000"/>
+          </a:xfrm>
+          <a:prstGeom prst="triangle"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln w="19050">
+            <a:solidFill><a:srgbClr val="2EC4B6"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Main Title -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Title"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="2200000"/>
+            <a:ext cx="10592000" cy="1200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="6600" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Building </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="6600" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Modern</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Second line of title -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Title Line 2"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="3200000"/>
+            <a:ext cx="10592000" cy="1200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="6600" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Web Applications</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Subtitle -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Subtitle"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="4500000"/>
+            <a:ext cx="10592000" cy="600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Architecture, Components &amp; Best Practices</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Accent bar under title -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Title Accent"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="4350000"/>
+            <a:ext cx="2000000" cy="50000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill rotWithShape="1">
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="7B2CBF"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Page indicator dots -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="30" name="Dot 1"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="6200000"/>
+            <a:ext cx="80000" cy="80000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="31" name="Dot 2"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="920000" y="6200000"/>
+            <a:ext cx="80000" cy="80000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="32" name="Dot 3"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1040000" y="6200000"/>
+            <a:ext cx="80000" cy="80000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="33" name="Dot 4"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1160000" y="6200000"/>
+            <a:ext cx="80000" cy="80000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="34" name="Dot 5"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1280000" y="6200000"/>
+            <a:ext cx="80000" cy="80000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sld>

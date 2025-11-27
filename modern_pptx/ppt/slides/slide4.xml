@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Title -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Title"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="300000"/>
+            <a:ext cx="10592000" cy="700000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="b"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Development </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Workflow</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Accent bar -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Accent"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="1000000"/>
+            <a:ext cx="1500000" cy="40000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="7B2CBF"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Timeline Line -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Timeline"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1200000" y="3400000"/>
+            <a:ext cx="10000000" cy="30000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="25000"><a:srgbClr val="7B2CBF"/></a:gs>
+              <a:gs pos="50000"><a:srgbClr val="E63946"/></a:gs>
+              <a:gs pos="75000"><a:srgbClr val="2EC4B6"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="FF6B6B"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Step 1 -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="10" name="Step 1 Circle"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1000000" y="3200000"/><a:ext cx="400000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="ctr"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="0D1B2A"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>1</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="11" name="Step 1 Title"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="800000" y="1400000"/><a:ext cx="2000000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="b"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Plan &amp; Design</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="12" name="Step 1 Desc"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="800000" y="1800000"/><a:ext cx="2000000" cy="1200000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Requirements</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Wireframes</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>DB Schema</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <!-- Step 2 -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="20" name="Step 2 Circle"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3200000" y="3200000"/><a:ext cx="400000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="ctr"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>2</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="21" name="Step 2 Title"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3000000" y="3700000"/><a:ext cx="2000000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="t"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Setup</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="22" name="Step 2 Desc"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="3000000" y="4100000"/><a:ext cx="2000000" cy="1200000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Environment</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Git / CI-CD</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Build Tools</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <!-- Step 3 -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="30" name="Step 3 Circle"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5400000" y="3200000"/><a:ext cx="400000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="E63946"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="ctr"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>3</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="31" name="Step 3 Title"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5200000" y="1400000"/><a:ext cx="2000000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="b"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="E63946"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Build Backend</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="32" name="Step 3 Desc"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="5200000" y="1800000"/><a:ext cx="2000000" cy="1200000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>API Routes</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Business Logic</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Database</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <!-- Step 4 -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="40" name="Step 4 Circle"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7600000" y="3200000"/><a:ext cx="400000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="ctr"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="0D1B2A"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>4</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="41" name="Step 4 Title"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7400000" y="3700000"/><a:ext cx="2000000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="t"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Build Frontend</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="42" name="Step 4 Desc"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7400000" y="4100000"/><a:ext cx="2000000" cy="1200000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>UI Components</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>API Integration</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>State Mgmt</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <!-- Step 5 -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="50" name="Step 5 Circle"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9800000" y="3200000"/><a:ext cx="400000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="FF6B6B"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="ctr"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>5</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="51" name="Step 5 Title"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9600000" y="1400000"/><a:ext cx="2000000" cy="400000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr anchor="b"/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1800" b="1"><a:solidFill><a:srgbClr val="FF6B6B"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Test &amp; Deploy</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="52" name="Step 5 Desc"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="9600000" y="1800000"/><a:ext cx="2000000" cy="1200000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Unit / E2E Tests</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>CI/CD Pipeline</a:t></a:r></a:p><a:p><a:pPr algn="ctr"/><a:r><a:rPr lang="en-US" sz="1200"><a:solidFill><a:srgbClr val="778DA9"/></a:solidFill><a:latin typeface="Segoe UI"/></a:rPr><a:t>Cloud Deploy</a:t></a:r></a:p></p:txBody>
+      </p:sp>
+      <!-- Page dots -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="60" name="Dot 1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="800000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="61" name="Dot 2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="920000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="62" name="Dot 3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1040000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="63" name="Dot 4"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1160000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="64" name="Dot 5"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1280000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sld>

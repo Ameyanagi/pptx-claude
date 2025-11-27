@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Large decorative gradient circle -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="10" name="Deco Circle"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="7500000" y="1500000"/>
+            <a:ext cx="5000000" cy="5000000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:gradFill rotWithShape="1">
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"><a:alpha val="20000"/></a:srgbClr></a:gs>
+              <a:gs pos="50000"><a:srgbClr val="7B2CBF"><a:alpha val="15000"/></a:srgbClr></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="E63946"><a:alpha val="5000"/></a:srgbClr></a:gs>
+            </a:gsLst>
+            <a:lin ang="2700000" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Floating decorations -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="11" name="Float 1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm rot="2700000"><a:off x="1500000" y="900000"/><a:ext cx="300000" cy="300000"/></a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="00D4FF"><a:alpha val="40000"/></a:srgbClr></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="12" name="Float 2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="10000000" y="1200000"/><a:ext cx="200000" cy="200000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="2EC4B6"><a:alpha val="30000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="13" name="Float 3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm rot="900000"><a:off x="2200000" y="5200000"/><a:ext cx="200000" cy="200000"/></a:xfrm>
+          <a:prstGeom prst="triangle"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="7B2CBF"><a:alpha val="40000"/></a:srgbClr></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Main Thank You Text -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Thank You"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="2000000"/>
+            <a:ext cx="10592000" cy="1200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="7200" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Thank </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="7200" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>You</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Subtitle -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Questions"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="3300000"/>
+            <a:ext cx="10592000" cy="600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2800">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Questions?</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Accent bar -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Accent"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="3150000"/>
+            <a:ext cx="2500000" cy="50000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="50000"><a:srgbClr val="7B2CBF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="E63946"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Contact info boxes -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="20" name="Info Box 1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="800000" y="4200000"/><a:ext cx="3000000" cy="500000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 10000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="00D4FF"><a:alpha val="50000"/></a:srgbClr></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>github.com/your-repo</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="21" name="Info Box 2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="4000000" y="4200000"/><a:ext cx="3000000" cy="500000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 10000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="7B2CBF"><a:alpha val="50000"/></a:srgbClr></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>@your-twitter</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="22" name="Info Box 3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="7200000" y="4200000"/><a:ext cx="3000000" cy="500000"/></a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 10000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"/></a:solidFill>
+          <a:ln w="12700"><a:solidFill><a:srgbClr val="2EC4B6"><a:alpha val="50000"/></a:srgbClr></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>hello@example.com</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Page dots -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="30" name="Dot 1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="800000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="31" name="Dot 2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="920000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="32" name="Dot 3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1040000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="33" name="Dot 4"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1160000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="34" name="Dot 5"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1280000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sld>

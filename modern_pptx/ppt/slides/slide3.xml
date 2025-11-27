@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Title -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Title"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="300000"/>
+            <a:ext cx="10592000" cy="700000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="b"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Core </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Components</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Accent bar -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Accent"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="1000000"/>
+            <a:ext cx="1500000" cy="40000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="7B2CBF"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <!-- Card 1: Frontend -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="10" name="Card 1 BG"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="800000" y="1300000"/>
+            <a:ext cx="3400000" cy="4800000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 5000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"/></a:solidFill>
+          <a:ln w="19050">
+            <a:solidFill><a:srgbClr val="00D4FF"><a:alpha val="40000"/></a:srgbClr></a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="11" name="Card 1 Icon BG"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1000000" y="1500000"/>
+            <a:ext cx="600000" cy="600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="0099CC"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="12" name="Card 1 Icon"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1100000" y="1600000"/>
+            <a:ext cx="400000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&lt;/&gt;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="13" name="Card 1 Title"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1000000" y="2200000"/>
+            <a:ext cx="3000000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="b"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="2400" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Frontend</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="14" name="Card 1 Content"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1000000" y="2650000"/>
+            <a:ext cx="3000000" cy="3200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Frameworks</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>React / Vue / Angular / Svelte</a:t>
+            </a:r>
+          </a:p>
+          <a:p><a:endParaRPr lang="en-US" sz="800"/></a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Styling</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Tailwind / Styled Components</a:t>
+            </a:r>
+          </a:p>
+          <a:p><a:endParaRPr lang="en-US" sz="800"/></a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>State Management</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Redux / Zustand / Pinia</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Card 2: Backend -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="20" name="Card 2 BG"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4400000" y="1300000"/>
+            <a:ext cx="3400000" cy="4800000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 5000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"/></a:solidFill>
+          <a:ln w="19050">
+            <a:solidFill><a:srgbClr val="7B2CBF"><a:alpha val="40000"/></a:srgbClr></a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="21" name="Card 2 Icon BG"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4600000" y="1500000"/>
+            <a:ext cx="600000" cy="600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="7B2CBF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="5A189A"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="22" name="Card 2 Icon"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4700000" y="1600000"/>
+            <a:ext cx="400000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>{ }</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="23" name="Card 2 Title"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4600000" y="2200000"/>
+            <a:ext cx="3000000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="b"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="2400" b="1">
+                <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Backend</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="24" name="Card 2 Content"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4600000" y="2650000"/>
+            <a:ext cx="3000000" cy="3200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Languages</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Node.js / Python / Go / Rust</a:t>
+            </a:r>
+          </a:p>
+          <a:p><a:endParaRPr lang="en-US" sz="800"/></a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Frameworks</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Express / FastAPI / Gin</a:t>
+            </a:r>
+          </a:p>
+          <a:p><a:endParaRPr lang="en-US" sz="800"/></a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>APIs</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>REST / GraphQL / gRPC</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Card 3: Database -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="40" name="Card 3 BG"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8000000" y="1300000"/>
+            <a:ext cx="3400000" cy="4800000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 5000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"/></a:solidFill>
+          <a:ln w="19050">
+            <a:solidFill><a:srgbClr val="2EC4B6"><a:alpha val="40000"/></a:srgbClr></a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="41" name="Card 3 Icon BG"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8200000" y="1500000"/>
+            <a:ext cx="600000" cy="600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="2EC4B6"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="1A936F"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="0"/>
+          </a:gradFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="42" name="Card 3 Icon"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8300000" y="1600000"/>
+            <a:ext cx="400000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1800" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>DB</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="43" name="Card 3 Title"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8200000" y="2200000"/>
+            <a:ext cx="3000000" cy="400000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="b"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="2400" b="1">
+                <a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Database</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="44" name="Card 3 Content"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8200000" y="2650000"/>
+            <a:ext cx="3000000" cy="3200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>SQL</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>PostgreSQL / MySQL / SQLite</a:t>
+            </a:r>
+          </a:p>
+          <a:p><a:endParaRPr lang="en-US" sz="800"/></a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>NoSQL</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>MongoDB / DynamoDB</a:t>
+            </a:r>
+          </a:p>
+          <a:p><a:endParaRPr lang="en-US" sz="800"/></a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1600">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Cache</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="778DA9"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Redis / Memcached</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Page dots -->
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="50" name="Dot 1"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="800000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="51" name="Dot 2"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="920000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="52" name="Dot 3"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1040000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="53" name="Dot 4"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1160000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr><p:cNvPr id="54" name="Dot 5"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+        <p:spPr>
+          <a:xfrm><a:off x="1280000" y="6200000"/><a:ext cx="80000" cy="80000"/></a:xfrm>
+          <a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom>
+          <a:solidFill><a:srgbClr val="415A77"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="0"><a:noFill/></a:ln>
+        </p:spPr>
+        <p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr/></a:p></p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sld>

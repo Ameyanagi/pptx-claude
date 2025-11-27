@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 550">
+  <defs>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="100%" style="stop-color:#0099CC"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B2CBF"/>
+      <stop offset="100%" style="stop-color:#5A189A"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2EC4B6"/>
+      <stop offset="100%" style="stop-color:#1A936F"/>
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="100%" style="stop-color:#E63946"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="100%" style="stop-color:#7B2CBF"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background is transparent to show slide background -->
+
+  <!-- Client Layer -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="30" width="400" height="90" rx="12" fill="url(#cyanGrad)"/>
+    <text x="500" y="60" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="18" font-weight="600">CLIENT</text>
+    <text x="500" y="85" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Segoe UI" font-size="13">React / Vue / Angular</text>
+    <text x="500" y="105" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Segoe UI" font-size="11">HTML  |  CSS  |  JavaScript</text>
+  </g>
+
+  <!-- Connection Line 1 -->
+  <g filter="url(#glow)">
+    <line x1="500" y1="120" x2="500" y2="170" stroke="url(#lineGrad)" stroke-width="3"/>
+    <polygon points="500,180 494,165 506,165" fill="#7B2CBF"/>
+  </g>
+  <rect x="520" y="135" width="80" height="24" rx="12" fill="rgba(0,212,255,0.2)" stroke="#00D4FF" stroke-width="1"/>
+  <text x="560" y="152" text-anchor="middle" fill="#00D4FF" font-family="Segoe UI" font-size="11">HTTPS</text>
+
+  <!-- API Gateway -->
+  <g filter="url(#shadow)">
+    <rect x="350" y="185" width="300" height="55" rx="10" fill="#415A77"/>
+    <text x="500" y="218" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="14" font-weight="500">API GATEWAY / LOAD BALANCER</text>
+  </g>
+
+  <!-- Connection Line 2 -->
+  <g filter="url(#glow)">
+    <line x1="500" y1="240" x2="500" y2="280" stroke="url(#lineGrad)" stroke-width="3"/>
+    <polygon points="500,290 494,275 506,275" fill="#7B2CBF"/>
+  </g>
+
+  <!-- Backend Layer -->
+  <g filter="url(#shadow)">
+    <rect x="300" y="295" width="400" height="90" rx="12" fill="url(#purpleGrad)"/>
+    <text x="500" y="330" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="18" font-weight="600">BACKEND</text>
+    <text x="500" y="355" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Segoe UI" font-size="13">Node.js / Python / Go / Java</text>
+    <text x="500" y="375" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Segoe UI" font-size="11">REST API  |  GraphQL  |  WebSocket</text>
+  </g>
+
+  <!-- Connection Line 3 -->
+  <g filter="url(#glow)">
+    <line x1="500" y1="385" x2="500" y2="430" stroke="url(#lineGrad)" stroke-width="3"/>
+    <polygon points="500,440 494,425 506,425" fill="#2EC4B6"/>
+  </g>
+  <rect x="520" y="395" width="70" height="24" rx="12" fill="rgba(46,196,182,0.2)" stroke="#2EC4B6" stroke-width="1"/>
+  <text x="555" y="412" text-anchor="middle" fill="#2EC4B6" font-family="Segoe UI" font-size="11">SQL</text>
+
+  <!-- Database Layer -->
+  <g filter="url(#shadow)">
+    <rect x="350" y="445" width="300" height="70" rx="12" fill="url(#tealGrad)"/>
+    <text x="500" y="475" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="18" font-weight="600">DATABASE</text>
+    <text x="500" y="500" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Segoe UI" font-size="12">PostgreSQL  |  MongoDB  |  Redis</text>
+  </g>
+
+  <!-- Cache sidebar -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="295" width="180" height="90" rx="12" fill="url(#pinkGrad)"/>
+    <text x="140" y="330" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="16" font-weight="600">CACHE</text>
+    <text x="140" y="355" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Segoe UI" font-size="12">Redis / Memcached</text>
+    <text x="140" y="375" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Segoe UI" font-size="11">In-Memory Storage</text>
+  </g>
+
+  <!-- Connection to cache -->
+  <line x1="230" y1="340" x2="300" y2="340" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="6,4" opacity="0.7"/>
+
+  <!-- External Services sidebar -->
+  <g filter="url(#shadow)">
+    <rect x="770" y="295" width="180" height="90" rx="12" fill="#415A77"/>
+    <text x="860" y="325" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="14" font-weight="600">EXTERNAL</text>
+    <text x="860" y="345" text-anchor="middle" fill="white" font-family="Segoe UI" font-size="14" font-weight="600">SERVICES</text>
+    <text x="860" y="368" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Segoe UI" font-size="11">Auth / Email / CDN</text>
+    <text x="860" y="382" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Segoe UI" font-size="11">Storage / Payment</text>
+  </g>
+
+  <!-- Connection to external -->
+  <line x1="700" y1="340" x2="770" y2="340" stroke="#00D4FF" stroke-width="2" stroke-dasharray="6,4" opacity="0.7"/>
+
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="30" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <circle cx="920" cy="480" r="40" fill="none" stroke="#7B2CBF" stroke-width="1" opacity="0.3"/>
+  <rect x="880" y="60" width="60" height="60" rx="8" fill="none" stroke="#2EC4B6" stroke-width="1" opacity="0.3" transform="rotate(15 910 90)"/>
+</svg>
